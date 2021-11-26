@@ -179,7 +179,7 @@ I can only import and show the public key and encrypt data.
 
 |
 
-SeleniumLibrary Plugin
+Browser (Library) Plugin
 ----------------------
 
 This version of CryptoLibrary.Plugin is a 'Browser' library Plugin.
