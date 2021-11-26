@@ -1,6 +1,6 @@
 
 ===================================================
-robotframework-crypto
+robotframework-crypto for RobotFrameWork 4.0> and Browser Library
 ===================================================
 
 CryptoLibrary is a library for secure password handling.
@@ -182,7 +182,8 @@ I can only import and show the public key and encrypt data.
 SeleniumLibrary Plugin
 ----------------------
 
-CryptoLibrary.Plugin is a SeleniumLibrary Plugin.
+This version of CryptoLibrary.Plugin is a 'Browser' library Plugin.
+https://robotframework-browser.org/
 When taken into usage, the ``Input Password`` Keyword can now handle decrypted cipher texts as well.
 
 Example:
@@ -190,7 +191,7 @@ Example:
 .. code :: robotframework
 
     *** Settings ***
-    Library    SeleniumLibrary    plugins=CryptoLibrary.Plugin
+    Library    Browser    plugins=CryptoLibrary.Plugin
 
 
     *** Variables ***
